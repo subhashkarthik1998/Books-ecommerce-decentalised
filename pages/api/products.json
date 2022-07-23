@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "book1",
+    "price": "0.09",
+    "description": "Get this awesome book for only $0.09! ",
+    "image_url": "https://i.imgur.com/t99WPzo.jpg",
+    "filename": "book1",
+    "hash": "QmRe7aVVFkK2aHQVXctFLDNucPmyTgyzZ1pXYyjtRhWBsN"
+  },
+  {
+    "id": 2,
+    "name": "Book2",
+    "price": "0.05",
+    "image_url": "https://i.imgur.com/pSblF3T.jpg",
+    "description": "god level book 99999",
+    "filename": "download (1).jpg",
+    "hash": "QmZqWasiEtRXdYRHVs5ZF8J1RahZeQztk7rFNGnVKo3PeB"
+  }
+]
