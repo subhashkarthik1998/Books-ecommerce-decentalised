@@ -6,9 +6,7 @@ import HeadComponent from '../components/Head';
 import { useWallet } from "@solana/wallet-adapter-react";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
-// Constants
-const TWITTER_HANDLE = "_buildspace";
-const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
+
 
 const App = () => {
   const { publicKey } = useWallet();
@@ -65,15 +63,7 @@ const App = () => {
           {publicKey ? renderItemBuyContainer() : renderNotConnectedContainer()}
         </main>
 
-        <div className="footer-container">
-          <img alt="Twitter Logo" className="twitter-logo" src="twitter-logo.svg" />
-          <a
-            className="footer-text"
-            href={TWITTER_LINK}
-            target="_blank"
-            rel="noreferrer"
-          >{`built with lit by Trinetras`}</a>
-        </div>
+        
       </div>
     </div>
   );
